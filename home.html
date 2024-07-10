@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ</title>
+    <link rel="stylesheet" href="../public/css/style.css">
+    <script src="../public/js/script.js"></script>
+    <script src="https://kit.fontawesome.com/4392bd821c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="box_center">
+        <header class="header"><!--Phần header-->
+            <div class="header_bg"><!--Màu nền cho phần nav-->
+                <div class="header_around"><!--Bọc xung quanh nav và căn giữa-->
+                    <div class="header_nav"><!--Bọc nội dung nav-->
+                        <a class="header_nav_logo" href=""><!--Bọc nội dung logo-->
+                            <img class="header_nav_logo_img" src="../public/image/calling.png" alt="Logo">
+                            <div class="header_nav_logo_text">
+                                <h3 class="header_nav_logo_text_1">SAN'S</h3>
+                                <h3 class="header_nav_logo_text_2">MOBILE</h3>
+                            </div>
+                        </a>
+                        <div class="header_nav_search">
+                            <form class="header_nav_search_form" action="">
+                                <input class="header_nav_search_form_input" type="text" placeholder="Nhập từ khóa tìm kiếm ... ">
+                                <button class="header_nav_search_form_submit" type="submit">
+                                    <i class="fa-solid fa-magnifying-glass fa-xl" style="color: #ffffff;"></i>
+                                </button>
+                            </form>
+                        </div>
+                        <div class="header_nav_user">
+                            <div class="header_nav_user_list">
+                                <a class="header_nav_user_list_link" href="">
+                                    <div class="header_nav_user_list_link_logo">
+                                        <i class="fa-solid fa-phone fa-lg" style="color: #ffffff;"></i>
+                                    </div>
+                                    <p>0987 654 321</p>
+                                </a>
+                                <a class="header_nav_user_list_link" href="">
+                                    <div class="header_nav_user_list_link_logo">
+                                        <i class="fa-solid fa-circle-user fa-lg" style="color: #ffffff;"></i>
+                                    </div>
+                                    <p>Tài khoản</p>
+                                </a>
+                                <a class="header_nav_user_list_link" href="">
+                                    <div class="header_nav_user_list_link_logo">
+                                        <i class="fa-solid fa-cart-shopping fa-lg" style="color: #ffffff;"></i>
+                                    </div>
+                                    <p>Giỏ hàng</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Menu -->
+            <div class="box_menu">
+                <div class="mb menu">
+                    <ul>
+                        <li class="dropdown">
+                            <a class="dropdownbtn" href="index.php">TRANG CHỦ</a>
+                        <li class="dropdown">
+                            <a class="dropdownbtn" href="index.php?act=gioithieu">GIỚI THIỆU</a>
+                        <li class="dropdown">
+                            <a class="dropdownbtn" href="index.php?act=sanpham">SẢN PHẨM</a>
+                        <li class="dropdown">
+                            <a class="dropdownbtn" href="index.php?act=dichvu">DỊCH VỤ</a>
+                        <li class="dropdown">
+                            <a class="dropdownbtn" href="index.php?act=khuyenmai">KHUYẾN MÃI</a>
+                        <li class="dropdown">
+                            <a class="dropdownbtn" href="index.php?act=tintuc">TIN TỨC</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <!-- END HEADER -->
+
+        <!-- Content -->
+        <!-- banner -->
+        <main class="box_content">
+            <div class="catalog mb">
+                <div class="content">
+                    <div class="box_banner">
+                        <div class="banner">
+                            <img id="banner" src="../public/image/banner0.jpg" alt="">
+                            <button class="pre" onclick="pre()">&#10094;</button>
+                            <button class="next" onclick="next()">&#10095;</button>
+                        </div>
+                        <div class="banner2 ">
+                            <img id="banner1" src="../public/image/anh1.jpg" alt="">
+                            <img id="banner2" src="../public/image/anh2.jpg" alt="">
+                        </div>
+                    </div>
+                    <!-- end banner -->
+
+                    <!-- danh muc -->
+                    <div class="danhmuc_title">
+                        <h3>DANH MỤC</h3>
+                    </div>
+                    <div class="danhmuc">
+                        <div class="box_danhmuc">
+                            <div class="danhmuc_item">
+                                <img src="../public/image/dienthoai.jpg" alt="">
+                            </div>
+                                <a href="index.php?"> <input class="danhmuc_name" type="button" value="Điện thoại"></a>
+                        </div>
+                        <div class="box_danhmuc">
+                            <div class="danhmuc_item">
+                                <img src="../public/image/dong_ho.jpg" alt="" >
+                            </div>
+                                <a href="index.php?"> <input class="danhmuc_name" type="button" value="Đồng hồ"></a>
+                        </div>
+                        <div class="box_danhmuc">
+                            <div class="danhmuc_item">
+                                <img src="../public/image/dienthoai.jpg" alt="">
+                            </div>
+                                <a href="index.php?"> <input class="danhmuc_name" type="button" value="Điện thoại"></a>
+                        </div>
+                        <div class="box_danhmuc">
+                            <div class="danhmuc_item">
+                                <img src="../public/image/dienthoai.jpg" alt="">
+                            </div>
+                                <a href="index.php?"> <input class="danhmuc_name" type="button" value="Điện thoại"></a>
+                        </div>
+                        <div class="box_danhmuc">
+                            <div class="danhmuc_item">
+                                <img src="../public/image/dienthoai.jpg" alt="">
+                            </div>
+                                <a href="index.php?"> <input class="danhmuc_name" type="button" value="Điện thoại"></a>
+                        </div>
+                        <div class="box_danhmuc">
+                            <div class="danhmuc_item">
+                                <img src="../public/image/dienthoai.jpg" alt="">
+                            </div>
+                                <a href="index.php?"> <input class="danhmuc_name" type="button" value="Điện thoại"></a>
+                        </div>
+                    </div>
+                    <!-- end danhmuc -->
+                    <div class="anhtc">
+                        <img src="../public/image/anhtc.png" alt="">
+                    </div>
+                    <!-- Sp khuyen mai-->
+                    <div class="sale_title">
+                        <i class="fa-solid fa-fire-flame-curved"></i>
+                        <h3>KHUYẾN MÃI HOT</h3>
+                    </div>
+                    <div class="items">
+                        <div class="box_items">
+                            <div class="box_items_bg">
+                                <div class="box_items_img">
+                                    <img src="../public/image/dienthoai.jpg" alt="">  
+                                </div>
+                                <div class="tg" href="">Trả góp 0%/0đ</div>
+                                <div class="sale" href="">Giảm 1.999.999đ</div>
+                            </div>
+
+                            <div class="items_text">
+                                <a class="item_name" href="">Iphone 14 Pro Max</a>
+                                <div class="price">
+                                    <p class="price-new">15.999.000đ</p>
+                                    <p class="price-old"><del>17.998.999đ</del></p>
+                                </div>
+                            </div>
+                            <div class="add" ><a href="#">Mua ngay</a></div>
+                            <div class="ctsp"> <a href="#">Chi tiết</a></div>
+                        </div>
+                        <div class="box_items">
+                            <div class="box_items_bg">
+                                <div class="box_items_img">
+                                    <img src="../public/image/laptop.jpg" alt="">  
+                                </div>
+                                <div class="tg" href="">Trả góp 0%/0đ</div>
+                                <div class="sale" href="">Giảm 1.999.999đ</div>
+                            </div>
+
+                            <div class="items_text">
+                                <a class="item_name" href="">Iphone 14 Pro Max </a>
+                                <div class="price">
+                                    <p class="price-new">15.999.000đ</p>
+                                    <p class="price-old"><del>17.998.999đ</del></p>
+                                </div>
+                            </div>
+                            <div class="add" ><a href="#">Mua ngay</a></div>
+                            <div class="ctsp"> <a href="#">Chi tiết</a></div>
+                        </div>
+                        <div class="box_items">
+                            <div class="box_items_bg">
+                                <div class="box_items_img">
+                                    <img src="../public/image/tivi.jpg" alt="">  
+                                </div>
+                                <div class="tg" href="">Trả góp 0%/0đ</div>
+                                <div class="sale" href="">Giảm 1.999.999đ</div>
+                            </div>
+
+                            <div class="items_text">
+                                <a class="item_name" href="">Iphone 14 Pro Max </a>
+                                <div class="price">
+                                    <p class="price-new">15.999.000đ</p>
+                                    <p class="price-old"><del>17.998.999đ</del></p>
+                                </div>
+                            </div>
+                            <div class="add" ><a href="#">Mua ngay</a></div>
+                            <div class="ctsp"> <a href="#">Chi tiết</a></div>
+                        </div>
+                        <div class="box_items">
+                            <div class="box_items_bg">
+                                <div class="box_items_img">
+                                    <img src="../public/image/dienthoai.jpg" alt="">  
+                                </div>
+                                <div class="tg" href="">Trả góp 0%/0đ</div>
+                                <div class="sale" href="">Giảm 1.999.999đ</div>
+                            </div>
+
+                            <div class="items_text">
+                                <a class="item_name" href="">Iphone 14 Pro Max </a>
+                                <div class="price">
+                                    <p class="price-new">15.999.000đ</p>
+                                    <p class="price-old"><del>17.998.999đ</del></p>
+                                </div>
+                            </div>
+                            <div class="add" ><a href="#">Mua ngay</a></div>
+                            <div class="ctsp"> <a href="#">Chi tiết</a></div>
+                        </div>
+                    </div>
+                    <!-- done sp khuyến mãi -->
+                    <div class="anhtc2">
+                        <img src="../public/image/anhtc2.png" alt="">
+                    </div>
+                    <!-- san pham noi bat -->
+                    <div class="sptop_title mb">
+                        <h3>SẢN PHẨM NỔI BẬT</h3>
+                    </div>
+                    <div class="items">
+                        <div class="box_items">
+                            <div class="box_items_bg">
+                                <div class="box_items_img">
+                                    <img src="../public/image/dienthoai.jpg" alt="">  
+                                </div>
+                                <div class="tg" href="">Trả góp 0%/0đ</div>
+                                <div class="sale" href="">Giảm 1.999.999đ</div>
+                            </div>
+
+                            <div class="items_text">
+                                <a class="item_name" href="">Iphone 14 Pro Max </a>
+                                <div class="price">
+                                    <p class="price-new">15.999.000đ</p>
+                                    <p class="price-old"><del>17.998.999đ</del></p>
+                                </div>
+                            </div>
+                            <div class="add" ><a href="#">Mua ngay</a></div>
+                            <div class="ctsp"> <a href="#">Chi tiết</a></div>
+                        </div>
+                    </div>
+                    <!-- done sp noi bat -->
+                    <!-- done sp noi bat -->
+                </div>
+            </div>
+        </main>
+        <!-- FOOTER -->
+        <footer class="box_footer ">
+            <div class="box_content_footer">
+                <div class="content_footer_top">
+                    <div class="footer_left_1">
+                        <div class="footer_title">
+                            Hỗ Trợ - Dịch Vụ
+                        </div>
+                        <div class="footer_text">
+                            <a href="#">Chính sách hướng dẫn mua hàng trả góp</a>
+                            <a href="#">Chính sách hướng dẫn mua hàng trả góp</a>
+                            <a href="#">Chính sách hướng dẫn mua hàng trả góp</a>
+                            <a href="#">Tra cứu đươn hàng</a>
+                            <a href="#">Dịch vụ bảo hành mở rộng</a>
+                            <a href="#">Chính sách bảo mật</a>
+                            <a href="#">Chính sách giải quyết khiếu nại</a>
+                            <a href="#">Quy chế hoạt động</a>
+                        </div>
+                    </div>
+                    <div class="footer_left_2">
+                        <div class="footer_title">
+                            Thông Tin Liên Hệ
+                        </div>
+                        <div class="footer_text">
+                            <a href="#">Thông tin các trang TMĐT</a>
+                            <a href="#">Dịch vụ sữa chữa</a>
+                            <a href="#">Khách hàng doanh nghiệp</a>
+                            <a href="#">Tra cứu bảo hành</a>
+                        </div>
+                    </div>
+                    <div class="footer_left_3">
+                        <div class="footer_title">
+                            Tổng Đài
+                        </div>
+                        <div class="footer_hotline">
+                            0987.654.321
+                        </div>
+                    </div>
+                    <div class="footer_right_1">
+                        <div class="footer_title">
+                            Thanh Toán Miễn Phí
+                        </div>
+                        <div class="footer_pay">
+                            <img src="../public/image/logo-visa.png" alt="">
+                            <img src="../public/image/logo-master.png" alt="">
+                            <img src="../public/image/logo-jcb.png" alt="">
+                            <img src="../public/image/logo-samsungpay.png" alt="">
+                            <img src="../public/image/logo-atm.png" alt="">
+                            <img src="../public/image/logo-vnpay.png" alt="">
+                        </div>
+                    </div>
+                    <div class="footer_right_2">
+                        <div class="footer_title">
+                            Hình Thức Vận Chuyển
+                        </div>
+                        <div class="footer_ship mb">
+                            <img src="../public/image/nhattin.jpg" alt="">
+                            <img src="../public/image/vnpost.jpg" alt="">
+                        </div>
+                        <div class="footer_bct">
+                            <img src="../public/image/logo-bct.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content_footer_bottom">
+                <div class="copyright">
+                    © 2023. CÔNG TY CỔ PHẦN XÂY DỰNG VÀ ĐẦU TƯ THƯƠNG MẠI SAN MOBILE. MST: 0106713191. (Đăng ký lần đầu: Ngày 15 tháng 12 năm 2014, Đăng ký thay đổi ngày 24/11/2023)
+                </div>
+                <div class="copyright">
+                    <b>GP số 426/GP-TTĐT do sở TTTT Hà Nội cấp ngày 22/01/2021</b> 
+                </div>
+                <div class="footer_location">
+                    Địa chỉ: Số 89 Đường Tam Trinh, Phường Mai Động, Quận Hoàng Mai, Thành Phố Hà Nội, Việt Nam. Điện thoại: 0987.654.321. Chịu trách nhiệm nội dung: <b>Trương Đắc Sơn.</b> 
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
